@@ -1,13 +1,12 @@
-export default function calca (){
+import Link from "next/link";
 
-    return (
-          <div>
-               <h1>CALÇA</h1>
-            <div>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt aliquam nesciunt culpa, provident suscipit labore officiis omnis quasi ipsam, repellat, corporis et. Minima molestias eveniet sapiente inventore fugiat dolorum?</p>
-            </div>   
-               
-          </div>
-           
-    )
+export default function Calca() {
+  return (
+    <div>
+        <h1>Calça</h1>
+        <p><strong>Descrição: </strong></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dicta ipsa neque deserunt pariatur? Impedit porro necessitatibus, quia consequatur expedita itaque est facere omnis quod in numquam, ullam illo odit!</p>
+        <p><Link href="/">Voltar...</Link></p>
+    </div>
+  )
 }
